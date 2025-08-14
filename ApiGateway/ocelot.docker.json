@@ -1,6 +1,5 @@
 {
   "Routes": [
-    // UserService
     {
       "UpstreamPathTemplate": "/gateway/users/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
@@ -8,16 +7,12 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "userservice",
+          "Host": "userservice-app",
           "Port": 80
         }
       ],
-      "UpstreamHeaderTransform": {},
-      "DownstreamHeaderTransform": {
-        "Accept-Language": "{Accept-Language}"
-      }
+      "DownstreamHeaderTransform": { "Accept-Language": "{Accept-Language}" }
     },
-    // ProductService
     {
       "UpstreamPathTemplate": "/gateway/products/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
@@ -25,16 +20,12 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "productservice",
+          "Host": "productservice-app",
           "Port": 80
         }
       ],
-      "UpstreamHeaderTransform": {},
-      "DownstreamHeaderTransform": {
-        "Accept-Language": "{Accept-Language}"
-      }
+      "DownstreamHeaderTransform": { "Accept-Language": "{Accept-Language}" }
     },
-    // OrderService
     {
       "UpstreamPathTemplate": "/gateway/orders/{everything}",
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
@@ -42,14 +33,11 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "orderservice",
+          "Host": "orderservice-app",
           "Port": 80
         }
       ],
-      "UpstreamHeaderTransform": {},
-      "DownstreamHeaderTransform": {
-        "Accept-Language": "{Accept-Language}"
-      }
+      "DownstreamHeaderTransform": { "Accept-Language": "{Accept-Language}" }
     }
   ],
   "GlobalConfiguration": {}
