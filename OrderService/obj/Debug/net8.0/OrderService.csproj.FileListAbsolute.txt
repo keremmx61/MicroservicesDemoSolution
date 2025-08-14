@@ -169,3 +169,6 @@ C:\Users\Kerem\source\repos\MicroservicesDemoSolution\OrderService\obj\Debug\net
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\OrderService\obj\Debug\net8.0\OrderService.pdb
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\OrderService\obj\Debug\net8.0\OrderService.genruntimeconfig.cache
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\OrderService\obj\Debug\net8.0\ref\OrderService.dll
+C:\Users\Kerem\source\repos\MicroservicesDemoSolution\OrderService\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Kerem\source\repos\MicroservicesDemoSolution\OrderService\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Kerem\source\repos\MicroservicesDemoSolution\OrderService\obj\Debug\net8.0\OrderService.sourcelink.json

@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[9.0.8, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Ocelot": {
               "target": "Package",
               "version": "[24.0.1, )"

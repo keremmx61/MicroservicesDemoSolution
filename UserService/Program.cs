@@ -8,13 +8,29 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddDbContext<UserDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlServerOptionsAction: sqlOptions =>
+{
+    var dbProvider = builder.Configuration.GetValue<string>("DB_PROVIDER");
+
+    if (dbProvider == "PostgreSQL")
     {
-        sqlOptions.EnableRetryOnFailure(
-            maxRetryCount: 5,
-            maxRetryDelay: TimeSpan.FromSeconds(30),
-            errorNumbersToAdd: null);
-    }));
+        // DÜZELTÝLMÝÞ KISIM: PostgreSQL için daha basit kullaným
+        options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), npgsqlOptionsAction: sqlOptions =>
+        {
+            sqlOptions.EnableRetryOnFailure(); // Parametreler kaldýrýldý
+        });
+    }
+    else
+    {
+        // SQL Server için olan kýsým ayný kalýyor
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlServerOptionsAction: sqlOptions =>
+        {
+            sqlOptions.EnableRetryOnFailure(
+                maxRetryCount: 5,
+                maxRetryDelay: TimeSpan.FromSeconds(30),
+                errorNumbersToAdd: new[] { 4060 });
+        });
+    }
+}, ServiceLifetime.Transient);
 
 builder.Services.AddScoped<IUserService, UserService.Services.UserService>();
 

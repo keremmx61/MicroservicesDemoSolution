@@ -7,10 +7,29 @@ using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<OrderDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlOptions =>
+{
+    var dbProvider = builder.Configuration.GetValue<string>("DB_PROVIDER");
+
+    if (dbProvider == "PostgreSQL")
     {
-        sqlOptions.EnableRetryOnFailure(5, TimeSpan.FromSeconds(30), null);
-    }));
+        // DÜZELTÝLMÝÞ KISIM: PostgreSQL için daha basit kullaným
+        options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), npgsqlOptionsAction: sqlOptions =>
+        {
+            sqlOptions.EnableRetryOnFailure(); // Parametreler kaldýrýldý
+        });
+    }
+    else
+    {
+        // SQL Server için olan kýsým ayný kalýyor
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlServerOptionsAction: sqlOptions =>
+        {
+            sqlOptions.EnableRetryOnFailure(
+                maxRetryCount: 5,
+                maxRetryDelay: TimeSpan.FromSeconds(30),
+                errorNumbersToAdd: new[] { 4060 });
+        });
+    }
+}, ServiceLifetime.Transient);
 
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<IOrderService, OrderService.Services.OrderService>();

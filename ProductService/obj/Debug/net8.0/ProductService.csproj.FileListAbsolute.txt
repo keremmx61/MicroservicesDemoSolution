@@ -182,3 +182,6 @@ C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ProductService\obj\Debug\n
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ProductService\obj\Debug\net8.0\ProductService.pdb
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ProductService\obj\Debug\net8.0\ProductService.genruntimeconfig.cache
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ProductService\obj\Debug\net8.0\ref\ProductService.dll
+C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ProductService\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ProductService\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ProductService\obj\Debug\net8.0\ProductService.sourcelink.json
