@@ -1,0 +1,6 @@
+{
+  "ProductNameRequired": "Ürün adı boş olamaz.",
+  "PriceGreaterThanZero": "Fiyat 0'dan büyük olmalıdır.",
+  "ProductDescriptionRequired": "Açıklama alanı boş olamaz.",
+  "StockCannotBeNegative": "Stok adedi negatif olamaz."
+}

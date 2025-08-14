@@ -1,0 +1,6 @@
+{
+  "ProductNameRequired": "Product name cannot be empty.",
+  "PriceGreaterThanZero": "Price must be greater than 0.",
+  "ProductDescriptionRequired": "Description field cannot be empty.",
+  "StockCannotBeNegative": "Stock quantity cannot be negative."
+}

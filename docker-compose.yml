@@ -1,0 +1,84 @@
+services:
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver_microservice
+    environment:
+      SA_PASSWORD: "StajProjesi_123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1434:1433"
+    networks:
+      - backend
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+
+  redis:
+    image: redis:alpine
+    container_name: redis_microservice
+    networks:
+      - backend
+
+  userservice:
+    build:
+      context: .
+      dockerfile: UserService/Dockerfile
+    networks:
+      - backend
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=UserServiceDb;User ID=sa;Password=StajProjesi_123;TrustServerCertificate=True"
+    depends_on:
+      - sqlserver
+
+  productservice:
+    build:
+      context: .
+      dockerfile: ProductService/Dockerfile
+    networks:
+      - backend
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=ProductServiceDb;User ID=sa;Password=StajProjesi_123;TrustServerCertificate=True"
+    depends_on:
+      - sqlserver
+
+  orderservice:
+    build:
+      context: .
+      dockerfile: OrderService/Dockerfile
+    networks:
+      - backend
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=OrderServiceDb;User ID=sa;Password=StajProjesi_123;TrustServerCertificate=True"
+      ServiceUrls__ProductService: "http://productservice"
+    depends_on:
+      - sqlserver
+      - productservice
+
+  apigateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    ports:
+      - "5100:80"
+    networks:
+      - backend
+    environment:
+      ASPNETCORE_ENVIRONMENT: Docker
+      ASPNETCORE_URLS: http://+:80
+    depends_on:
+      - userservice
+      - productservice
+      - orderservice
+
+networks:
+  backend:
+    driver: bridge
+
+volumes:
+  sqlserver_data:

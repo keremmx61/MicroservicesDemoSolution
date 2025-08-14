@@ -1,0 +1,336 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\localization\\jsonstringlocalizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\localization\\jsonstringlocalizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\localization\\tr-tr.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\localization\\tr-tr.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\validators\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\localization\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\localization\\sharedresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\localization\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\localization\\en-us.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29C02D40-3015-4796-B21C-2C76A79F7978}|UserService\\UserService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29C02D40-3015-4796-B21C-2C76A79F7978}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\productservice\\productservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF144CC2-E2CB-46EB-B776-1F1760EBA9D5}|ProductService\\ProductService.csproj|solutionrelative:productservice\\productservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B91A8EB-A5CF-44A2-B386-60ECF53C2CBC}|ApiGateway\\ApiGateway.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\apigateway\\ocelot.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B91A8EB-A5CF-44A2-B386-60ECF53C2CBC}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\ocelot.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B91A8EB-A5CF-44A2-B386-60ECF53C2CBC}|ApiGateway\\ApiGateway.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\apigateway\\ocelot.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B91A8EB-A5CF-44A2-B386-60ECF53C2CBC}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\ocelot.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549FF157-A2FF-4534-BDA5-A2C14B6355A2}|OrderService\\OrderService.csproj|c:\\users\\kerem\\source\\repos\\microservicesdemosolution\\orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{549FF157-A2FF-4534-BDA5-A2C14B6355A2}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Services\\IProductService.cs",
+              "RelativeToolTip": "ProductService\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T16:02:55.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JsonStringLocalizer.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\JsonStringLocalizer.cs",
+              "RelativeDocumentMoniker": "ProductService\\Localization\\JsonStringLocalizer.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\JsonStringLocalizer.cs",
+              "RelativeToolTip": "ProductService\\Localization\\JsonStringLocalizer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwC4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T15:37:00.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-13T14:31:15.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tr-TR.json",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\tr-TR.json",
+              "RelativeDocumentMoniker": "ProductService\\Localization\\tr-TR.json",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\tr-TR.json",
+              "RelativeToolTip": "ProductService\\Localization\\tr-TR.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-13T14:20:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Validators\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "ProductService\\Validators\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Validators\\ProductValidator.cs",
+              "RelativeToolTip": "ProductService\\Validators\\ProductValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T10:30:15.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Program.cs",
+              "RelativeDocumentMoniker": "ProductService\\Program.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Program.cs",
+              "RelativeToolTip": "ProductService\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T10:30:56.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductService\\Services\\ProductService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T21:14:24.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductService\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductService\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAcwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T19:26:41.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "en-US.json",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\en-US.json",
+              "RelativeDocumentMoniker": "ProductService\\Localization\\en-US.json",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\en-US.json",
+              "RelativeToolTip": "ProductService\\Localization\\en-US.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-13T14:20:40.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\UserService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\UserService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:11:29.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SharedResources.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\SharedResources.cs",
+              "RelativeDocumentMoniker": "ProductService\\Localization\\SharedResources.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Localization\\SharedResources.cs",
+              "RelativeToolTip": "ProductService\\Localization\\SharedResources.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T11:54:23.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Dockerfile",
+              "RelativeDocumentMoniker": "ProductService\\Dockerfile",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Dockerfile",
+              "RelativeToolTip": "ProductService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-12T13:15:26.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\appsettings.json",
+              "RelativeToolTip": "ProductService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-12T12:17:33.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductService.csproj",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\ProductService.csproj",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.csproj",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\ProductService.csproj",
+              "RelativeToolTip": "ProductService\\ProductService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-12T12:48:40.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductService\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ProductService\\Models\\Product.cs",
+              "RelativeToolTip": "ProductService\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T12:48:08.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ocelot.docker.json",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ApiGateway\\ocelot.docker.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ocelot.docker.json",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ApiGateway\\ocelot.docker.json",
+              "RelativeToolTip": "ApiGateway\\ocelot.docker.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-09T12:23:59.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ocelot.local.json",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ApiGateway\\ocelot.local.json",
+              "RelativeDocumentMoniker": "ApiGateway\\ocelot.local.json",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\ApiGateway\\ocelot.local.json",
+              "RelativeToolTip": "ApiGateway\\ocelot.local.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-09T17:57:41.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\OrderService\\appsettings.json",
+              "RelativeDocumentMoniker": "OrderService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kerem\\source\\repos\\MicroservicesDemoSolution\\OrderService\\appsettings.json",
+              "RelativeToolTip": "OrderService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-09T22:04:45.9Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

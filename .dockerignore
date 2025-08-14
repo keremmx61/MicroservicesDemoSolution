@@ -1,0 +1,4 @@
+# Visual Studio'nun ve derleyicinin geçici dosyalarýný yok say
+**/.vs
+**/bin
+**/obj
