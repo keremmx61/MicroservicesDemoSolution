@@ -41,3 +41,4 @@ C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ApiGateway\obj\Debug\net8.
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ApiGateway\obj\Debug\net8.0\ApiGateway.pdb
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ApiGateway\obj\Debug\net8.0\ApiGateway.genruntimeconfig.cache
 C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ApiGateway\obj\Debug\net8.0\ref\ApiGateway.dll
+C:\Users\Kerem\source\repos\MicroservicesDemoSolution\ApiGateway\obj\Debug\net8.0\ApiGateway.sourcelink.json

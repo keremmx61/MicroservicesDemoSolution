@@ -7,36 +7,18 @@ using FluentValidation.AspNetCore;
 using ProductService.Validators;
 using ProductService.Localization;
 using Microsoft.Extensions.Localization;
-using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // === 1. Veritabaný ve Servisleri Sisteme Tanýtma ===
-// === 1. Veritabaný ve Servisleri Sisteme Tanýtma ===
 builder.Services.AddDbContext<ProductDbContext>(options =>
-{
-    var dbProvider = builder.Configuration.GetValue<string>("DB_PROVIDER");
-
-    if (dbProvider == "PostgreSQL")
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlServerOptionsAction: sqlOptions =>
     {
-        // DÜZELTÝLMÝÞ KISIM: PostgreSQL için daha basit kullaným
-        options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"), npgsqlOptionsAction: sqlOptions =>
-        {
-            sqlOptions.EnableRetryOnFailure(); // Parametreler kaldýrýldý
-        });
-    }
-    else
-    {
-        // SQL Server için olan kýsým ayný kalýyor
-        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlServerOptionsAction: sqlOptions =>
-        {
-            sqlOptions.EnableRetryOnFailure(
-                maxRetryCount: 5,
-                maxRetryDelay: TimeSpan.FromSeconds(30),
-                errorNumbersToAdd: new[] { 4060 });
-        });
-    }
-}, ServiceLifetime.Transient);
+        sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: new[] { 4060 });
+    }));
 
 builder.Services.AddScoped<IProductService, ProductService.Services.ProductService>();
 
@@ -48,12 +30,10 @@ builder.Services.AddStackExchangeRedisCache(options =>
 });
 
 // === JSON TABANLI LOCALIZATION ===
-// Kendi implementasyonunla, OrchardCore olmadan
 builder.Services.AddSingleton<IStringLocalizer<SharedResources>, JsonStringLocalizer>();
 
 // === API ve Validation Ayarlarý ===
 builder.Services.AddControllers();
-
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>();
 
@@ -65,13 +45,12 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
-// === Localization Middleware === ?? En erken çaðrýlmalý
+// === Localization Middleware ===
 var supportedCultures = new[] { "en-US", "tr-TR" };
 var localizationOptions = new RequestLocalizationOptions()
     .SetDefaultCulture("en-US")
     .AddSupportedCultures(supportedCultures)
     .AddSupportedUICultures(supportedCultures);
-
 app.UseRequestLocalization(localizationOptions);
 
 // Otomatik Migration
